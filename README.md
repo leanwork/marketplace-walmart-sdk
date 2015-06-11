@@ -1,2 +1,4 @@
-# marketplace-walmart-sdk
-SDK C# da API do Marketplace WALMART
+## SDK C# da API do Marketplace Walmart
+
+Documentação:
+* http://adapter.waldev.com.br/
