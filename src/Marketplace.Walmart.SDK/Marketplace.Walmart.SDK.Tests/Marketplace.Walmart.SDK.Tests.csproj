@@ -51,9 +51,16 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Catalog_Should.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Marketplace.Walmart.SDK\Marketplace.Walmart.SDK.csproj">
+      <Project>{66c1b2ce-7215-4864-b87d-65ca3cc6dcc9}</Project>
+      <Name>Marketplace.Walmart.SDK</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
